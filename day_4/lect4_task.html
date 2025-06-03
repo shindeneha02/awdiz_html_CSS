@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lect 4 Task Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Weekly Schedule</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Days</th>
+                <th colspan="3">Timeslots</th>
+                <th rowspan="2">Activity</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td>11:30</td>
+                <td>12:30</td>
+                <td>1:30</td>
+                <td>Math Class</td>
+            </tr>
+            <tr>
+                <td>2:30</td>
+                <td>3:30</td>
+                <td>4:30</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">Workshop</td>
+                <td>Project Work</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Note: Schedule subject to change</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
