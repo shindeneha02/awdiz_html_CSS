@@ -1,0 +1,22 @@
+/* Apply Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+    background-color: #fff;
+}
+.box {
+    background-color: rgba(135, 206, 250, 0.3);
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+.italic-text {
+    font-style: italic;
+    color: #333;
+    letter-spacing: 2px;
+    line-height: 2.2;
+}
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
