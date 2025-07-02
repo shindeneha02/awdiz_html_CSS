@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prime Video - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #0f1111;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00a8e1;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #00a8e1;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header-right input {
+      padding: 6px 10px;
+      border-radius: 4px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .header-right button {
+      padding: 8px 16px;
+      background-color: #00a8e1;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .profile-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .main-container {
+      display: flex;
+      height: calc(100vh - 70px);
+    }
+
+    .left-section {
+      width: 50%;
+      background-color: #000;
+      padding: 100px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .left-section h1 {
+      font-size: 48px;
+      margin-bottom: 25px;
+    }
+
+    .left-section p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .left-section button {
+      padding: 14px 28px;
+      font-size: 18px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+  .right-section {
+    width: 50%;
+    background: linear-gradient(135deg, #061a40, #003b85, #0077b6);
+    padding: 60px 30px;
+    overflow-y: auto;
+    }
+
+  
+
+    .right-section h2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .movie-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .movie-card {
+      background-color: #002c66;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .movie-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .movie-card p {
+      padding: 10px;
+      font-size: 14px;
+      background-color: #001d3d;
+      text-align: center;
+    
+      .rentals-section {
+  background: linear-gradient(135deg, #061a40, #003b85, #0077b6);
+  padding: 40px 30px;
+}
+
+.rentals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.rentals-grid img {
+  width: 2%;
+  height: 2px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">prime video</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="movies.html">Movies</a>
+   
+    <a href="tvshows.html">TV Shows</a>
+    <a href="livetv.html">Live TV</a>
+   
+    
+  </nav>
+  <div class="header-right">
+    <input type="text" placeholder="Search">
+    <a href="subscription-orders.html">
+        <button>Join Prime</button></a>
+    <img src="WhatsApp Image 2025-06-27 at 15.27.42.jpeg" alt="Profile" class="profile-icon">
+  </div>
+</header>
+
+<div class="main-container">
+  <div class="left-section">
+    <h1>Welcome to Prime Video</h1>
+    <p>Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals</p>
+    <a href="login.html"><button>Sign in to join Prime</button></a>
+  </div>
+
+  <div class="right-section">
+    <h2>PRIME DAY RELEASES</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="WhatsApp Image 2025-06-27 at 15.19.49.jpeg" alt="Panchayat">
+        <p>PANCHAYAT — NEW SEASON</p>
+      </div>
+      <div class="movie-card">
+        <img src="WhatsApp Image 2025-06-27 at 15.19.49 (1).jpeg" alt="The Traitors">
+        <p>THE TRAITORS — NEW EPISODES THU 8PM</p>
+      </div>
+      <div class="movie-card">
+        <img src="WhatsApp Image 2025-06-27 at 15.19.49 (2).jpeg" alt="Ground Zero">
+        <p>GROUND ZERO — NOW STREAMING</p>
+      </div>
+      <div class="movie-card">
+        <img src="WhatsApp Image 2025-06-27 at 15.19.48.jpeg" alt="Heads of State">
+        <p>HEADS OF STATE — MOVIE JULY 2</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- New Rentals Section -->
+<div class="main-container">
+  <div class="left-section">
+    <h1>Movie rentals on Prime Video</h1>
+    <p>Early Access to new movies, before digital subscription</p>
+    <button>Rent now</button>
+  </div>
+
+  <div class="right-section rentals-section">
+    <div class="rentals-grid">
+      <img src="WhatsApp Image 2025-06-27 at 15.48.59.jpeg" alt="Rental Movies">
+      
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

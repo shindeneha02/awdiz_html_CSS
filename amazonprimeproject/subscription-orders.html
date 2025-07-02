@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prime Video - Orders</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 36px;
+    }
+
+    .plan-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    .plan-table th, .plan-table td {
+      border: 1px solid #333;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .plan-table th {
+      background-color: #111;
+    }
+
+    .plan-table tr:hover {
+      background-color: #222;
+    }
+
+    .proceed-btn {
+      padding: 15px 30px;
+      background-color: #00a8e1;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 30px auto 0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Select a Prime Plan</h1>
+
+<form action="payment.html" method="GET">
+  <table class="plan-table">
+    <tr>
+      <th>Select</th>
+      <th>Plan</th>
+      <th>Price</th>
+      <th>Duration</th>
+    </tr>
+    <tr>
+      <td><input type="radio" name="plan" value="monthly" required></td>
+      <td>Monthly Plan</td>
+      <td>₹299</td>
+      <td>30 Days</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="plan" value="quarterly"></td>
+      <td>Quarterly Plan</td>
+      <td>₹799</td>
+      <td>90 Days</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="plan" value="yearly"></td>
+      <td>Yearly Plan</td>
+      <td>₹1499</td>
+      <td>365 Days</td>
+    </tr>
+  </table>
+
+  <button type="submit" class="proceed-btn">Proceed to Payment</button>
+</form>
+
+
+
+<footer>
+  <p>&copy; 2025 Prime Video Clone. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

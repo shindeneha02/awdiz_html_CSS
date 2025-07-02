@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prime Video - Login</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #000000, #001f4d);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #00a8e1;
+      margin: 20px 0;
+    }
+
+    .login-box {
+      background: #fff;
+      color: #000;
+      padding: 30px 20px;
+      border-radius: 8px;
+      max-width: 360px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #999;
+      border-radius: 4px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #ffc107;
+      color: #000;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #ffb300;
+    }
+
+    .text-link {
+      display: block;
+      margin: 15px 0;
+      font-size: 14px;
+      color: #0066c0;
+      text-decoration: none;
+    }
+
+    .or {
+      text-align: center;
+      margin: 20px 0;
+      color: #777;
+    }
+
+    .create-account {
+      padding: 10px;
+      border: 1px solid #888;
+      border-radius: 6px;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      display: block;
+      color: #000;
+    }
+
+    .create-account:hover {
+      background: #eee;
+    }
+
+    .footer-links {
+      margin-top: 30px;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .footer-links a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="logo">prime video</div>
+
+<div class="login-box">
+  <h2>Sign in</h2>
+  <form action="login-success.html">
+    <label>Email or mobile phone number</label>
+    <input type="text" placeholder="Enter your email or mobile number" required>
+     <label>Password</label>
+    <input type="password" placeholder="Enter your password" required>
+
+    <button type="submit" class="btn">login</button>
+  </form>
+
+  <a href="#" class="text-link">Need help?</a>
+
+  <div class="or">──────── or ────────</div>
+
+  <a href="register.html" class="create-account">Create your Prime Video account</a>
+</div>
+
+<div class="footer-links">
+  <a href="#">Terms and Privacy Notice</a>
+  <a href="#">Send us feedback</a>
+  <a href="#">Help</a>
+</div>
+
+</body>
+</html>
